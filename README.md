@@ -10,7 +10,7 @@
 * **Model Evaluation:** Evaluating performance with metrics such as accuracy, precision, recall, F1‐score, and ROC‐AUC on hold-out or cross-validated test sets. For example, one study on the Telco churn dataset found the best classifiers achieved around **80% accuracy**.
 * **Prediction:** Using the final model to predict churn probabilities for new or unseen customer data, enabling the business to act on the highest-risk cases.
 
-**Dataset:** We use the **Telco Customer Churn** dataset (an IBM sample available via Kaggle). This is a fictional telecom company’s data with 7,043 customer records. Each row represents a customer, and the columns include:
+**Dataset:** We use the **Customer Churn** dataset (an Hugging Face dataset). This is a data with ~24k customer records. Each row represents a customer, and the columns include:
 
 * A **Churn** indicator (whether the customer left the service in the last month).
 * **Service details:** types of services the customer subscribes to (e.g. phone, internet, streaming).
